@@ -42,7 +42,7 @@ function ArWing() {
 export default function App() {
   return (
     <>
-      <Canvas style={{ background: "#171717" }}>
+      <Canvas style={{ background: "white" }}>
         <directionalLight intensity={0.5} />
         <Suspense fallback={<Loading />}>
           <ArWing />
